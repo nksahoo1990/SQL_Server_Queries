@@ -1,0 +1,8 @@
+IF DB_ID('College') IS NULL
+BEGIN
+    CREATE DATABASE College;
+END;
+GO
+
+USE College;
+GO
